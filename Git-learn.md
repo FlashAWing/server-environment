@@ -160,6 +160,9 @@ git merge dev
 #非快速合并，保留分支信息
 git merge --no-ff -m "message" <branchID>
 
+#变基合并
+git rebase -i #交互式变基
+
 
 #删除dev分支
 git branch -d dev
